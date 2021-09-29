@@ -12,6 +12,7 @@ package student;
 public class StudentList {
     public static void main(String[] args)
     {
+        /* after doing revert commit comment */
         Student [] studentList =new Student[2];
         
         Student s1 = new Student();
@@ -29,5 +30,4 @@ public class StudentList {
         
         
     }
-    
 }

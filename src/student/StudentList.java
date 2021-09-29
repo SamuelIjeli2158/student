@@ -12,9 +12,7 @@ package student;
 public class StudentList {
     public static void main(String[] args)
     {
-        /* added comment , changed 2 to 3 */
-         /* added  another comment  */
-        Student [] studentList =new Student[3];
+        Student [] studentList =new Student[2];
         
         Student s1 = new Student();
         s1.setName("Ronak");

@@ -12,7 +12,17 @@ package student;
 public class Student {
        private String name;
        private String address;
+       private String marks;
 
+    public String getMarks() {
+        return marks;
+    }
+
+    public void setMarks(String marks) {
+        this.marks = marks;
+    }
+
+       
     public String getAddress() {
         return address;
     }
@@ -29,7 +39,7 @@ public class Student {
         this.name = name;
     }
 
+  
     
    
-    
 }
